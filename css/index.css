@@ -1,0 +1,73 @@
+.login-button,.signup-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+    background: linear-gradient(135deg, #84888bff 50%, #484e55ff 90%);
+    color: white;
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.footer-section h3 {
+    color: #3f29ffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section h4 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer-section p {
+    color: #cdd7dfff;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #cdd7dfff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #dad882ff;
+}
+
+.footer-bottom {
+    /* border-top: 1px solid #34495e;   //tạo 1 dòng line */
+    text-align: center;
+    color: #dce6e6ff;
+    font-size: 14px;
+}

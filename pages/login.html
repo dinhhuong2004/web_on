@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - WEB_ON</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../images/main-icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Left Side - Login Form -->
+        <div class="login-form-section">
+            <div class="login-form">
+                <div class="logo">
+                    <img src="../images/logo.png" alt="WEB_ON Logo" class="logo-img">
+                    <h1>WEB_ON</h1>
+                </div>
+                
+                <h2>Chào mừng trở lại!</h2>
+                <p class="subtitle">Đăng nhập để tiếp tục</p>
+                
+                <form class="form" id="loginForm">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+                        <span class="input-icon">📧</span>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="password">Mật khẩu</label>
+                        <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+                        <span class="input-icon">🔒</span>
+                        <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                    </div>
+                    
+                    <div class="form-options">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="remember">
+                            <span class="checkmark"></span>
+                            Ghi nhớ đăng nhập
+                        </label>
+                        <a href="#" class="forgot-password">Quên mật khẩu?</a>
+                    </div>
+                    
+                    <button type="submit" class="login-btn">Đăng nhập</button>
+                    
+                    <div class="divider">
+                        <span>Hoặc</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <button type="button" class="social-btn google-btn">
+                            <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google">
+                            Đăng nhập với Google
+                        </button>
+                        <button type="button" class="social-btn facebook-btn">
+                            📘 Đăng nhập với Facebook
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="signup-link">
+                    <p>Chưa có tài khoản? <a href="signup.html">Đăng ký ngay</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Side - Image/Illustration -->
+        <div class="login-image-section">
+            <div class="image-content">
+                <h2>Khám phá thế giới công nghệ</h2>
+                <p>Tham gia cộng đồng WEB_ON để cập nhật những xu hướng web development mới nhất</p>
+                <div class="features">
+                    <div class="feature">
+                        <span class="feature-icon">🚀</span>
+                        <span>Công nghệ hiện đại</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🛡️</span>
+                        <span>Bảo mật cao</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">⚡</span>
+                        <span>Hiệu suất tối ưu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/login.js"></script>
+</body>
+</html>
